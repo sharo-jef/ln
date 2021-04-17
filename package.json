@@ -1,0 +1,28 @@
+{
+    "name": "ln",
+    "version": "1.0.0",
+    "description": "ln",
+    "scripts": {
+        "start": "node -r dotenv/config ."
+    },
+    "bin": {
+        "ln": "index.js"
+    },
+    "keywords": [],
+    "author": "sharo_jef",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/core": "^7.12.9",
+        "@babel/eslint-parser": "^7.12.1",
+        "@babel/plugin-proposal-class-properties": "^7.12.1",
+        "@babel/plugin-syntax-top-level-await": "^7.12.1",
+        "@babel/preset-env": "^7.12.1",
+        "@types/node": "^14.14.6",
+        "eslint": "^7.13.0"
+    },
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "yargs": "^16.2.0"
+    },
+    "type": "module"
+}
